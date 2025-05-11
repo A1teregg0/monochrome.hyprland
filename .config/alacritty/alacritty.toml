@@ -1,0 +1,24 @@
+# import = ["/home/anon/.config/alacritty/alacritty-theme/themes/alabaster_dark.toml"]
+# import = ["/home/anon/.config/alacritty/alacritty-theme/themes/github_light.toml"]
+# import = ["/home/anon/.config/alacritty/vscode.toml"]
+general.import = ["/home/anon/.config/alacritty/monochrome.toml"]
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "GohuFont uni11 Nerd Font"
+# family = "Fixed"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+[window]
+dynamic_padding = true
+
+[window.padding]
+x = 10
+y = 5
+
